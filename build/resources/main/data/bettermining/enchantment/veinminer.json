@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.bettermining.veinminer"
+  },
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "bettermining:vein_miner",
+          "range": 64
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:pickaxes",
+  "weight": 15
+}

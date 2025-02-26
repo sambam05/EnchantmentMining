@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "bettermining",
+  "version": "1.0",
+  "name": "BetterMining",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bettermining/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.sheath.bettermining.Bettermining"
+    ],
+    "fabric-datagen": [
+      "com.sheath.bettermining.BetterMiningDataGenerator"
+    ]
+  },
+  "mixins": [
+    "bettermining.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  },
+  "custom": {
+    "modmenu": {
+      "client": false,
+      "server": true
+    }
+  }
+}
