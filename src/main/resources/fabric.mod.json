@@ -30,5 +30,6 @@
       "client": false,
       "server": true
     }
-  }
+  },
+  "accessWidener": "bettermining.accesswidener"
 }

@@ -20,6 +20,7 @@ public class Bettermining implements ModInitializer {
 
     }
 
-    public static Identifier id(String path) {return Identifier.of(MOD_ID,path);}
-
+    public static Identifier id(String path) {
+        return Identifier.of(MOD_ID,path);
+    }
 }

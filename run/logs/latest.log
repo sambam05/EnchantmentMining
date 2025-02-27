@@ -1,5 +1,5 @@
-[20:14:39] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[20:14:39] [main/INFO] (FabricLoader) Loading 44 mods:
+[21:11:40] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[21:11:40] [main/INFO] (FabricLoader) Loading 44 mods:
 	- bettermining 1.0
 	- fabric-api 0.118.0+1.21.4
 	- fabric-api-base 0.4.54+b47eab6b04
@@ -44,14 +44,15 @@
 	- java 22
 	- minecraft 1.21.4
 	- mixinextras 0.4.1
-[20:14:40] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/samue/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:14:40] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[20:14:40] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[20:14:41] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:14:51] [main/INFO] (Better Mining) Loading...
-[20:14:51] [main/INFO] (Minecraft) [STDOUT]: Registering Vein Miner Effect!
-[20:14:52] [main/INFO] (FabricDataGenHelper) Running data generator for bettermining
-[20:14:52] [main/INFO] (Minecraft) Starting provider: BetterMining/VeinMinerEnchantmentGenerator
-[20:14:53] [main/INFO] (Minecraft) BetterMining/VeinMinerEnchantmentGenerator finished after 677 ms
-[20:14:53] [main/INFO] (Minecraft) All providers took: 679 ms
-[20:14:53] [main/INFO] (Minecraft) Caching: total files: 1, old count: 1, new count: 2, removed stale: 0, written: 0
+[21:11:40] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/samue/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:11:41] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[21:11:41] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[21:11:41] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:11:53] [main/INFO] (Better Mining) Loading...
+[21:11:53] [main/INFO] (Minecraft) [STDOUT]: Registering Vein Miner Effect!
+[21:11:53] [main/INFO] (FabricDataGenHelper) Running data generator for bettermining
+[21:11:53] [main/INFO] (Minecraft) [STDOUT]: Generating Vein Miner enchantment data...
+[21:11:53] [main/INFO] (Minecraft) Starting provider: BetterMining/BetterMiningEnchantmentGenerator
+[21:11:54] [main/INFO] (Minecraft) BetterMining/BetterMiningEnchantmentGenerator finished after 543 ms
+[21:11:54] [main/INFO] (Minecraft) All providers took: 544 ms
+[21:11:54] [main/INFO] (Minecraft) Caching: total files: 1, old count: 0, new count: 2, removed stale: 0, written: 1

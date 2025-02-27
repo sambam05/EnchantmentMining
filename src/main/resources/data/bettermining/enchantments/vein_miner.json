@@ -9,8 +9,21 @@
         "enchanted": "attacker",
         "affected": "victim",
         "effect": {
-          "type": "bettermining:vein_miner",
-          "range": 64
+          "type": "minecraft:destroy_block",
+          "condition": {
+            "block": {
+              "tag": "minecraft:ores"
+            }
+          }
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "effect": "minecraft:haste",
+          "duration": 100,
+          "amplifier": 1
         }
       }
     ]

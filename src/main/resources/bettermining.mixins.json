@@ -4,6 +4,8 @@
   "package": "com.sheath.bettermining.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ServerPlayerInteractionManagerAccessor",
+    "VeinMinerMixin"
   ],
   "client": [
   ],

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BetterMining.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BetterMining.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BetterMining.test.iml" filepath="$PROJECT_DIR$/.idea/modules/BetterMining.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.sheath.BetterMining.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.sheath.BetterMining.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.sheath.BetterMining.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.sheath.BetterMining.test.iml" />
     </modules>
   </component>
 </project>
