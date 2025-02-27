@@ -1,6 +1,6 @@
 package com.sheath.bettermining;
 
-import com.sheath.bettermining.data.generator.EnchantmentGenerator;
+import com.sheath.bettermining.dataGen.generator.EnchantmentGenerator;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
